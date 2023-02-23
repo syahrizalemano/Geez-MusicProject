@@ -95,3 +95,5 @@ Geez-Project is a modified version of [Callsmusic](https://github.com/callsmusic
 - [ImJanindu](https://github.com/ImJanindu): 
 - [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
 - [Original Repo owners](https://github.com/suprojects/CallsMusic)
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/syahrizalemano/Geez-MusicProject)
