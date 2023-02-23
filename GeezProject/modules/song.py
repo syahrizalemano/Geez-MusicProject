@@ -41,7 +41,6 @@ from GeezProject.modules.play import arq
 
 @Client.on_message(filters.command("song") & ~filters.channel)
 def song(client, message):
-
     user_id = message.from_user.id
     user_name = message.from_user.first_name
     rpk = "[" + user_name + "](tg://user?id=" + str(user_id) + ")"
@@ -117,7 +116,7 @@ def get_text(message: Message) -> [None, str]:
 def humanbytes(size):
     if not size:
         return ""
-    power = 2 ** 10
+    power = 2**10
     raised_to_pow = 0
     dict_power_n = {0: "", 1: "Ki", 2: "Mi", 3: "Gi", 4: "Ti"}
     while size > power:
@@ -261,7 +260,7 @@ is_downloading = False
 
 def time_to_seconds(time):
     stringt = str(time)
-    return sum(int(x) * 60 ** i for i, x in enumerate(reversed(stringt.split(":"))))
+    return sum(int(x) * 60**i for i, x in enumerate(reversed(stringt.split(":"))))
 
 
 @Client.on_message(filters.command("saavn") & ~filters.edited)
